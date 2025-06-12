@@ -1,0 +1,27 @@
+{
+    "mode": "model_opt",
+    "project_name": "Final_models",
+    "paths": {
+      "directory_path": "/cephyr/users/clarabe/Alvis/final_models_tmp_saving_path",
+      "vocab_path": "/cephyr/users/clarabe/Alvis/Datasets/vocab.txt",
+      "saved_folds_path": "/cephyr/users/clarabe/Alvis/saved_folds"
+    },
+    "folds": {
+      "n_folds": 5
+    },
+    "data": {
+      "max_length": 100
+    },
+    "roberta": {
+      "hidden_size_roberta": 768,
+      "num_hidden_layers_roberta": [14,12,10],
+      "num_attention_heads_roberta": 1
+    },
+    "dnn_model": {
+      "learning_rate": 1e-5
+    },
+    "training": {
+      "num_epochs": 100,
+      "batch_size": 128
+    }
+}

@@ -1,8 +1,3 @@
-# HEADS 1
-
-# move to saga 
-# scp -r /mimer/NOBACKUP/groups/snic2022-22-552/clarabe/final_model/encoder_10_heads_32_emb_64 clarabe@saga.math.chalmers.se:/home/clarabe/Final_models
-
 import json
 import os
 import torch
